@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">To-do</string>
+    <string name="del">Удалить!</string>
+    <string name="done">Сделано!</string>
+    <string name="deleted"> Удалено!</string>
+    <string name="you_did"> Ура! Вы сделали это!</string>
+    <string name="undo">Отменить!</string>
+</resources>

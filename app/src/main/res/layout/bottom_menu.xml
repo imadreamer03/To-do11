@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="1dp"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    app:behavior_peekHeight="0dp"
+    app:behavior_hideable="true"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+    android:id="@+id/botom_container"
+    android:background="@color/white"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="12dp"
+        app:cardCornerRadius="20dp"
+        android:padding="4dp"
+        android:elevation="2dp"
+        app:cardElevation="2dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_blue_light"
+            android:textColor="@color/black"
+            android:id="@+id/edit1"
+            android:padding="10dp"
+            android:hint="Enter something"
+            android:imeOptions="actionDone"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <TimePicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:timePickerMode="spinner"
+        android:id="@+id/timee"/>
+
+</LinearLayout>
